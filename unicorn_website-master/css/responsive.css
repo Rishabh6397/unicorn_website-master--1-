@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*  */
+@media (max-width:768px) {
+
+    /* login section */
+    .headingcontent {
+        display: none;
+    }
+    .formcontent{
+        width: 100%;
+        padding: 50px 0 50px 0;
+       
+    }
+
+    /* about us section */
+    .rectangleright{
+        display: none;
+    }
+
+    .rectangleright .uspheading{
+        font-size: 20px;
+    }
+
+}
