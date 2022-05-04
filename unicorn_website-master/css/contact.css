@@ -12,8 +12,8 @@
  .contact-info {
      /* background-image: linear-gradient(to right bottom, #feca0c, #f9da53, #f7e882, #f8f4ae, #fdffd8); */
      background-color: #feca0a;
-     
-     
+
+
  }
 
  .contact-info-2 {
@@ -88,25 +88,26 @@
  }
 
  /*follow us  */
- .follow-us{
-    background-image: url('../images/background-5.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+ /* .follow-us {
+     background: rgb(240, 240, 236);
+     background: linear-gradient(0deg, rgba(240, 240, 236, 1) 0%, rgba(254, 218, 10, 0.6649226340926996) 78%) url('../images/background-5.jpg');;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
      background-attachment: fixed;
- }
- .follow-icon i{
+ } */
 
-    font-size: 50px;
-    padding: 40px;
-    color: #feca0a;
+ .follow-icon i {
+
+     font-size: 50px;
+     padding: 40px;
+     color: #feca0a;
  }
- .social-media{
+
+ .social-media {
      border: 1px solid red;
      padding: 50px;
-     
+
 
 
  }
-
- 
