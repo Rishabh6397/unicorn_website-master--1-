@@ -88,26 +88,43 @@
  }
 
  /*follow us  */
- /* .follow-us {
-     background: rgb(240, 240, 236);
-     background: linear-gradient(0deg, rgba(240, 240, 236, 1) 0%, rgba(254, 218, 10, 0.6649226340926996) 78%) url('../images/background-5.jpg');;
-     background-position: center;
-     background-repeat: no-repeat;
+ .follow-us {
+     background-image:
+         linear-gradient(45deg, rgba(235, 200, 22, 0.482), rgba(211, 232, 78, 0.78)), url('../images/background-5.jpg');
+     width: 100%;
      background-size: cover;
+     background-repeat: no-repeat;
      background-attachment: fixed;
- } */
+     /* text-align: center; */
+ }
+
 
  .follow-icon i {
 
      font-size: 50px;
      padding: 40px;
-     color: #feca0a;
+     color: black;
+     margin-top: 45px;
  }
 
  .social-media {
-     border: 1px solid red;
+     /* border: 1px solid red; */
      padding: 50px;
+     background-color: antiquewhite;
 
 
 
+ }
+
+ .social-media i {
+     font-size: 40px;
+     color: #feca0a;
+
+
+ }
+
+ .social-media .heading {
+     font-size: 25px;
+     margin-top: 15px;
+     padding: 2px;
  }

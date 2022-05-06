@@ -111,10 +111,10 @@
 
             }
         }
-        .navbar-expand-lg .navbar-nav .dropdown-menu :hover{
+        /* .navbar-expand-lg .navbar-nav .dropdown:hover{
             background-color: black;
             width:400px;
-        }
+        } */
 
         .navbar-collapse form .btn {
             padding: 12px;
