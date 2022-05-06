@@ -26,7 +26,7 @@
  .contact-box {
      padding: 33px;
      margin: auto;
-     height: 450px;
+     height: 305px;
      -webkit-box-shadow: -4px 4px 14px 1px rgba(255, 227, 87, 0.67);
      -moz-box-shadow: -4px 4px 14px 1px rgba(255, 227, 87, 0.67);
      box-shadow: -4px 4px 14px 1px rgba(255, 227, 87, 0.67);
@@ -115,6 +115,20 @@
 
 
  }
+ @media (max-width: 762px){
+
+    .follow-icon{
+        width: 100%;
+        padding: 10px;
+    }
+     .follow-icon i{
+       /* display: none; */
+       font-size: 32px;
+       padding: 24px;
+       color: black;
+       margin-top: 11px;
+    }
+ }
 
  .social-media i {
      font-size: 40px;
@@ -127,4 +141,15 @@
      font-size: 25px;
      margin-top: 15px;
      padding: 2px;
+ }
+
+
+ /* responsive */
+ @media (max-width: 768px){
+     
+.contact-box {
+    padding: 25px;
+    margin: auto;
+    height: 305px;
+}
  }
