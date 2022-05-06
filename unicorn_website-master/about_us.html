@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="Description" content="Enter your description here" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/countdown_animation.css">
@@ -21,70 +22,59 @@
     <!--main header start-->
     <header class="main_header">
         <section class="main_nav">
-            <div class="container m-0 p-0">
-                <!--header container-fluid start-->
-                <nav class="navbar navbar-expand-lg">
-                    <!--navbar start-->
-                    <div class="container-fluid navalign">
-                        <div class="main_logo">
-                            <div>
-                                <a class="navbar-brand" href="#">
-                                    <img src="./images/white_logo.png" alt="Unicorn Logo">
+
+            <!--header container-fluid start-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"> <img src="./images/white_logo.png" alt="Unicorn Logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about_us.html">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="machine-details.html" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Equipment
                                 </a>
-                            </div>
-                            <div class="contact-details">
-                                <h3>Need help? Talk to an Expert<br><span>+91 987654321</span></h3>
-                            </div>
-                        </div>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                        <div class="menu-align">
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="main_machine.html">main_machine</a></li>
+                                    <li><a class="dropdown-item" href="sub_machine.html">main_machine</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">About</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Product
-                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="#">Bar Machine</a></li>
-                                            <li><a class="dropdown-item" href="#">Vending Machine</a></li>
-                                            <li>
-                                                <hr class="dropdown-divider">
-                                            </li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Pricing</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">News</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                                    </li>
-
+                                    <li><a class="dropdown-item" href="parts_services.html">parts_services</a></li>
                                 </ul>
-                            </div>
-                        </div>
-                        <div class="call-login-button">
-                            <button type="button" class="custom-button"><a href="http://unicorneequipment.blubrandzglobal.com/"><i class="far fa-user"></i></i></a></button>
-                            <button type="button" class="request-button"><a href="http://unicorneequipment.blubrandzglobal.com/">Request a call</a></button>
-                        </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact_us.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Pricinng</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+
+                            <button class="btn btn-outline-success" type="submit">Login</button>
+                            <button class="btn btn-outline-success" type="submit">Find Machine</button>
+                        </form>
                     </div>
-                </nav>
-                <!--navbar end-->
-            </div>
+                </div>
+            </nav>
+            <!--navbar end-->
+
             <!--header container-fluid end-->
         </section>
 
@@ -110,10 +100,16 @@
         <div class="container">
             <div class="row  justify-content-center align-items-center">
                 <div class=" col-lg-6 col-sm-12 col-md-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus magni aliquam similique obcaecati? Pariatur omnis excepturi dolorem fugiat, ab nihil aperiam suscipit neque numquam repudiandae illum ut doloremque esse quam velit
-                        debitis odio tempore atque sint earum aspernatur voluptas. Fuga, optio. Recusandae cum dolores reiciendis nesciunt est doloribus doloremque libero?</p>
-                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus magni aliquam similique obcaecati? Pariatur omnis excepturi dolorem fugiat, ab nihil aperiam suscipit neque numquam repudiandae illum ut doloremque esse quam velit
-                        debitis odio tempore atque sint earum aspernatur voluptas. Fuga, optio. Recusandae cum dolores reiciendis nesciunt est doloribus doloremque libero?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus magni aliquam similique
+                        obcaecati? Pariatur omnis excepturi dolorem fugiat, ab nihil aperiam suscipit neque numquam
+                        repudiandae illum ut doloremque esse quam velit
+                        debitis odio tempore atque sint earum aspernatur voluptas. Fuga, optio. Recusandae cum dolores
+                        reiciendis nesciunt est doloribus doloremque libero?</p>
+                    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus magni aliquam
+                        similique obcaecati? Pariatur omnis excepturi dolorem fugiat, ab nihil aperiam suscipit neque
+                        numquam repudiandae illum ut doloremque esse quam velit
+                        debitis odio tempore atque sint earum aspernatur voluptas. Fuga, optio. Recusandae cum dolores
+                        reiciendis nesciunt est doloribus doloremque libero?</p>
                     <button type="button"><a class="custombutton aboutssbtn" href="#">Contact Now</a></button>
                 </div>
                 <div class=" col-lg-6 col-sm-12 col-md-6 col-md-6">
@@ -135,7 +131,8 @@
                         <img src="./images/te1.jpg" alt="">
                         <h3 class="mb-2 mt-3">Vishwajit</h3>
                         <div class="mb-2 mt-1">Developer</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic harum totam architecto porro excepturi vel.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic harum totam architecto porro
+                            excepturi vel.</p>
                     </div>
                 </div>
                 <div class=" col-md-3 col-lg-3 ">
@@ -143,7 +140,8 @@
                         <img src="./images/te2.jpg" alt="">
                         <h3 class="mb-2 mt-3">Sonali</h3>
                         <div class="mb-2 mt-1">Developer</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic harum totam architecto porro excepturi vel.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic harum totam architecto porro
+                            excepturi vel.</p>
                     </div>
                 </div>
                 <div class=" col-md-3 col-lg-3 ">
@@ -151,7 +149,8 @@
                         <img src="./images/te1.jpg" alt="">
                         <h3 class="mb-2 mt-3">Vishwa</h3>
                         <div class="mb-2 mt-1">Developer</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic harum totam architecto porro excepturi vel.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic harum totam architecto porro
+                            excepturi vel.</p>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -159,7 +158,8 @@
                         <img src="./images/te2.jpg" alt="">
                         <h3 class="mb-2 mt-3">Sonali</h3>
                         <div class="mb-2 mt-1">Developer</div>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic harum totam architecto porro excepturi vel.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic harum totam architecto porro
+                            excepturi vel.</p>
                     </div>
                 </div>
 
@@ -184,7 +184,8 @@
                             <img src="./images/yellow_logo.png " alt=" ">
                         </div>
                         <p class="text-white ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem in officia, iste eveniet soluta at perferendis, iusto deleniti aperiam, Molestias saepe.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatem in officia,
+                            iste eveniet soluta at perferendis, iusto deleniti aperiam, Molestias saepe.
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -260,7 +261,8 @@
         <!-- Copyright -->
         <div class="text-center copyrightt p-4 text-white ">
             <p> © 2022 Copyright Unicorn Equipments. Developed By
-                <a class="text-reset fw-bold " href="https://blubrandzglobal.in/ ">BluBrandz</a></p>
+                <a class="text-reset fw-bold " href="https://blubrandzglobal.in/ ">BluBrandz</a>
+            </p>
         </div>
         <!-- Copyright -->
     </footer>
@@ -268,10 +270,17 @@
     </div>
     <!--wrapper ende here-->
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js "
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN "
+        crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js "
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q "
+        crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js "
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl "
+        crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
     <!--minified jq cdn-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js "></script>
